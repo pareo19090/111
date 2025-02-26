@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// 连接数据库
-	db, err := sql.Open("mysql", "root:10011999Lm?@tcp(localhost:3306)/db")
+	db, err := sql.Open("mysql", "username:password?@tcp(localhost:3306)/db")
 	if err != nil {
 		log.Fatal(err)
 	}
